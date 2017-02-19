@@ -1,0 +1,120 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+img, embed, object, video {
+  max-width: 100%;
+}
+
+.thisgameweekApp md-content .ext-content {
+  padding: 50px;
+  margin: 20px;
+  background-color: #FFF2E0; }
+
+.md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
+	background-color: rgb(59, 89, 152);
+	color: rgba(255,255,255,0.87);
+  min-height: 55px;
+  height: 55px;
+  padding: 0 50px;
+}
+
+md-nav-bar.md-default-theme md-nav-ink-bar, md-nav-bar md-nav-ink-bar {
+	color: rgb(59, 89, 152);
+	background: rgb(59, 89, 152);
+  height: 5px;
+}
+
+.md-button.md-accent {
+    color: black;
+    font-weight:bolder;
+}
+.md-padding {
+    padding: 0;
+}
+.layout-row {
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: darkgray;
+}
+
+.md-nav-bar {
+  border-style: none;
+  border-width: 0 0 0;
+	height: 48px;
+	position: relative;
+}
+
+.teamcreationtop { 
+  margin-top:15px;
+  margin-left: 10px;
+  min-height: 40px;
+  min-width: 500px;
+}
+
+.layout-row {
+  border-style: none;
+  border-width: medium;
+  border-color:unset;
+}
+
+.teamcreationtabscontainer { 
+  margin-left: 10px;
+  min-height: 40px;
+  min-width: 500px;
+}
+
+.teamcreationtabs { 
+  margin-left: 10px;
+  min-height: 60px;
+  min-width: 500px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.md-button {
+    margin-top: 6px;
+    margin-right: -2px;
+    margin-bottom: 6px;
+    margin-left: -2px;
+    text-transform: none;
+}
+
+.teamcreation { 
+  margin-left: 10px;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  min-width: 500px;
+}
+
+.playerselectiontop { 
+  margin-top:15px;
+  margin-left: 10px;
+  min-height: 40px;
+  min-width: 300px;
+}
+.playerselection {
+  margin-left: 10px;
+  margin-top: -15px;
+  min-height: 690px;
+  min-width: 300px;
+}
+
+.standingstop { 
+  margin-top:15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-height: 40px;
+  min-width: 300px;
+}
+.standings {
+  margin-top:-15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-height: 690px;
+  min-width: 300px;
+ }

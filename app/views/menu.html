@@ -1,0 +1,11 @@
+<md-content class="md-padding" ng-controller="MenuCtrl as menu">
+    <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links" layout="row" layout-align="center center">
+        <md-nav-item md-nav-sref="highlights" name="highlights">HIGHLIGHTS</md-nav-item>
+        <md-nav-item md-nav-sref="home" name="home">HOME</md-nav-item>
+        <md-nav-item md-nav-sref="myteam" name="myteam">MY TEAM</md-nav-item>
+        <md-nav-item md-nav-sref="leagues" name="leagues">LEAGUES</md-nav-item>
+        <md-nav-item md-nav-sref="challenges" name="challenges">CHALLENGES</md-nav-item>
+        <md-nav-item md-nav-sref="fixtures" name="fixtures">FIXTRES</md-nav-item>
+     </md-nav-bar>
+     <ui-view></ui-view>
+</md-content>

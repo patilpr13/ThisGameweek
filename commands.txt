@@ -1,0 +1,12 @@
+yo angular
+yo angular:controller
+yo angular:directive
+yo angular:filter
+yo angular:route
+yo angular:service
+yo angular:provider
+yo angular:factory
+yo angular:value
+yo angular:constant
+yo angular:decorator
+yo angular:view

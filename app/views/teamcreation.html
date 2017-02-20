@@ -6,27 +6,18 @@
     <md-button class="md-raised">Transfers</md-button>
     <md-button class="md-raised md-primary">Performance</md-button>
   </div>
-  <div class="teamcreation" ng-style="{'background-image':'url(images/fieldbg.png)','background-position': 'center center', 'background-size': '100% 80%'}">
+  <div ng-controller="TeamCtrl as tc" class="teamcreation" ng-style="{'background-image':'url(images/fieldbg.png)','background-position': 'center center', 'background-size': '100% 80%'}">
     <div layout-align="center center" style="text-align: center;" layout="row" class="ng-scope layout-align-center-center layout-row flex">
-      <ng-include src="'views/player.html'"></ng-include>
+      <player ng-repeat="goalKeeper in goalkeepers" info="'{{goalKeeper}}'"></player>
     </div>
     <div layout-align="center center" style="text-align: center;" layout="row" class="ng-scope layout-align-center-center layout-row flex">
-      <ng-include src="'views/player.html'"></ng-include>
-      <ng-include src="'views/player.html'"></ng-include>
-      <ng-include src="'views/player.html'"></ng-include>
+      <player ng-repeat="defender in defenders" info="'{{defender}}'"></player>
     </div>
     <div layout-align="center center" style="text-align: center;" layout="row" class="ng-scope layout-align-center-center layout-row flex">
-      <ng-include src="'views/player.html'"></ng-include>
-      <ng-include src="'views/player.html'"></ng-include>
-      <ng-include src="'views/player.html'"></ng-include>
-      <ng-include src="'views/player.html'"></ng-include>
+      <player ng-repeat="midfielder in midfielders" info="'{{midfielder}}'"></player>
     </div>
     <div layout-align="center center" style="text-align: center;" layout="row" class="ng-scope layout-align-center-center layout-row flex">
-      <ng-include src="'views/player.html'"></ng-include>
-      <ng-include src="'views/player.html'"></ng-include>
-      <ng-include src="'views/player.html'"></ng-include>
-      <ng-include src="'views/player.html'"></ng-include>
-      <ng-include src="'views/player.html'"></ng-include>
+      <player ng-repeat="attacker in attackers" info="'{{attacker}}'"></player>
     </div>
   </div>
 </div>

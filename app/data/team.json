@@ -1,0 +1,52 @@
+[
+    {
+        "goalkeepers": [
+            {
+                "name": "Hunt",
+                "score": "50"
+            }
+        ],
+        "defenders": [
+            {
+                "name": "a",
+                "score": "50"
+            },
+            {
+                "name": "v",
+                "score": "50"
+            },
+            {
+                "name": "d",
+                "score": "50"
+            }
+        ],
+        "midfielders": [
+            {
+                "name": "e",
+                "score": "50"
+            },
+            {
+                "name": "u",
+                "score": "50"
+            },
+            {
+                "name": "j",
+                "score": "50"
+            }
+        ],
+        "attackers": [
+            {
+                "name": "o",
+                "score": "50"
+            },
+            {
+                "name": "m",
+                "score": "50"
+            },
+            {
+                "name": "x",
+                "score": "50"
+            }
+        ]
+    }
+]

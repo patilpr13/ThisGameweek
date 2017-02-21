@@ -1,5 +1,4 @@
 <div md-whiteframe="5" class="teamcreationtop">
-
 </div>
 <div md-whiteframe="5" class="teamcreationtabscontainer">
   <div class="teamcreationtabs">
@@ -8,16 +7,16 @@
   </div>
   <div ng-controller="TeamCtrl as tc" class="teamcreation" ng-style="{'background-image':'url(images/fieldbg.png)','background-position': 'center center', 'background-size': '100% 80%'}">
     <div layout-align="center center" style="text-align: center;" layout="row" class="ng-scope layout-align-center-center layout-row flex">
-      <player ng-repeat="goalKeeper in goalkeepers" info="'{{goalKeeper}}'"></player>
+      <player ng-repeat="goalKeeper in goalkeepers" info="goalKeeper"></player>
     </div>
     <div layout-align="center center" style="text-align: center;" layout="row" class="ng-scope layout-align-center-center layout-row flex">
-      <player ng-repeat="defender in defenders" info="'{{defender}}'"></player>
+      <player ng-repeat="defender in defenders" info="defender"></player>
     </div>
     <div layout-align="center center" style="text-align: center;" layout="row" class="ng-scope layout-align-center-center layout-row flex">
-      <player ng-repeat="midfielder in midfielders" info="'{{midfielder}}'"></player>
+      <player ng-repeat="midfielder in midfielders" info="midfielder"></player>
     </div>
     <div layout-align="center center" style="text-align: center;" layout="row" class="ng-scope layout-align-center-center layout-row flex">
-      <player ng-repeat="attacker in attackers" info="'{{attacker}}'"></player>
+      <player ng-repeat="attacker in attackers" info="attacker"></player>
     </div>
   </div>
 </div>

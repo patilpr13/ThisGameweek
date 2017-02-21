@@ -14,5 +14,4 @@ angular.module('thisgameweekApp').controller('MenuCtrl',
     $scope.$watch('currState.current.name', function (newValue, oldValue) {
       $scope.currentNavItem = newValue;
     });
-    $state.go($scope.currentNavItem);
   });

@@ -32,6 +32,10 @@
             {
                 "name": "j",
                 "score": "50"
+            },
+            {
+                "name": "ppp",
+                "score": "50"
             }
         ],
         "attackers": [
@@ -44,7 +48,15 @@
                 "score": "50"
             },
             {
-                "name": "x",
+                "name": "xyz",
+                "score": "50"
+            },
+            {
+                "name": "ppp",
+                "score": "50"
+            },
+            {
+                "name": "ppp",
                 "score": "50"
             }
         ]
